@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contacts</title>
+</head>
+<body>
+    <h3>My Contacts</h3>
+    <p>Email: <a href=markelovaki@gmail.com>markelovaki@gmail.com</a></p>
+    <p>Email: <a href=km3200a@american.edu>km3200a@american.edu</a></p>
+
+    <hr>
+
+    <!-- mailto: Open email client; post: transfers user's input into email client -->
+    <!-- enctype: specifies that the text in the form is plain text -->
+    <!-- add a name field to attributes to identify the data inside of each input -->
+    <form action="mailto:markelovaki@gmail.com" method="post" enctype="text/plain">
+        <label>First Name:</label>
+        <input type="text" name="firstName" value="">
+        <br>
+        <label>Last Name:</label>
+        <input type="text" name="lastName" value="">
+        <br>
+        <label>Your Email:</label>
+        <input type="email" name="email" value="">
+        <br>
+        <label>Your Message:</label>
+        <br>
+        <textarea name="message" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" name="">
+    </form>
+
+    <br>
+    <a href="index.html">Go Back</a>
+</body>
+</html>
