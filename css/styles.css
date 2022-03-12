@@ -1,0 +1,17 @@
+body {
+    background-color: #FEF5ED;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #99A799;
+    opacity: 50%;
+    border-width: 5px;
+    width: 5%;
+}
+img {
+    height: 200px;
+}
+h1, h3 {
+    color: #99A799;
+}
